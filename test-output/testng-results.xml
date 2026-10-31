@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-24T16:53:12 IST" name="Suite" finished-at="2026-10-24T16:55:39 IST" duration-ms="146910">
+    <groups>
+    </groups>
+    <test started-at="2026-10-24T16:53:12 IST" name="Test" finished-at="2026-10-24T16:55:39 IST" duration-ms="146910">
+      <class name="testNGTests.CheckoutTest">
+        <test-method is-config="true" signature="classconfig()[pri:0, instance:testNGTests.CheckoutTest@24aed80c]" started-at="2026-10-24T16:53:13 IST" name="classconfig" finished-at="2026-10-24T16:53:21 IST" duration-ms="8042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classconfig -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.CheckoutTest@24aed80c]" started-at="2026-10-24T16:53:21 IST" name="methodCofig" finished-at="2026-10-24T16:53:22 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="placeOrderTest()[pri:0, instance:testNGTests.CheckoutTest@24aed80c]" started-at="2026-10-24T16:53:22 IST" name="placeOrderTest" finished-at="2026-10-24T16:53:42 IST" duration-ms="20463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.CheckoutTest@24aed80c]" started-at="2026-10-24T16:53:42 IST" name="methodTeardown" finished-at="2026-10-24T16:53:44 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNGTests.CheckoutTest@24aed80c]" started-at="2026-10-24T16:53:44 IST" name="classTeardown" finished-at="2026-10-24T16:53:49 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNGTests.CheckoutTest -->
+      <class name="testNGTests.SearchProductTest">
+        <test-method is-config="true" signature="classconfig()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:08 IST" name="classconfig" finished-at="2026-10-24T16:54:13 IST" duration-ms="4507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classconfig -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:13 IST" name="methodCofig" finished-at="2026-10-24T16:54:13 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:13 IST" name="productSearchTest" data-provider="searchKeys" finished-at="2026-10-24T16:54:24 IST" duration-ms="10571" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webcam]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#search\-input"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fa76a9337c270ea49c4344d115036c4, findElement {value=search-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64045}, goog:processID: 2804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64045/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fa76a9337c270ea49c4344d115036c4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search\-input"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fa76a9337c270ea49c4344d115036c4, findElement {value=search-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64045}, goog:processID: 2804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64045/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fa76a9337c270ea49c4344d115036c4
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:441)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:435)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+at utils.ActionHelpers.clearText(ActionHelpers.java:50)
+at pages.HomePage.enterSearchText(HomePage.java:47)
+at testNGTests.SearchProductTest.productSearchTest(SearchProductTest.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:24 IST" name="methodTeardown" finished-at="2026-10-24T16:54:26 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:26 IST" name="methodCofig" finished-at="2026-10-24T16:54:26 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:26 IST" name="productSearchTest" data-provider="searchKeys" finished-at="2026-10-24T16:54:37 IST" duration-ms="10126" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ceiling fan]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#search\-input"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fa76a9337c270ea49c4344d115036c4, findElement {value=search-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64045}, goog:processID: 2804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64045/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fa76a9337c270ea49c4344d115036c4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#search\-input"}
+  (Session info: chrome=155.0.8059.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fa76a9337c270ea49c4344d115036c4, findElement {value=search-input, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\sncsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64045}, goog:processID: 2804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64045/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fa76a9337c270ea49c4344d115036c4
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:441)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:435)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.clear(Unknown Source)
+at utils.ActionHelpers.clearText(ActionHelpers.java:50)
+at pages.HomePage.enterSearchText(HomePage.java:47)
+at testNGTests.SearchProductTest.productSearchTest(SearchProductTest.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:37 IST" name="methodTeardown" finished-at="2026-10-24T16:54:39 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:39 IST" name="methodCofig" finished-at="2026-10-24T16:54:39 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="productSearchTest(java.lang.String)[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:54:39 IST" name="productSearchTest" data-provider="searchKeys" finished-at="2026-10-24T16:55:00 IST" duration-ms="20920" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testNGTests.SearchProductTest.productSearchTest(SearchProductTest.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:55:01 IST" name="methodTeardown" finished-at="2026-10-24T16:55:03 IST" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNGTests.SearchProductTest@2925bf5b]" started-at="2026-10-24T16:55:03 IST" name="classTeardown" finished-at="2026-10-24T16:55:08 IST" duration-ms="5087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNGTests.SearchProductTest -->
+      <class name="testNGTests.FilterValidationTest">
+        <test-method is-config="true" signature="classconfig()[pri:0, instance:testNGTests.FilterValidationTest@45c7e403]" started-at="2026-10-24T16:53:49 IST" name="classconfig" finished-at="2026-10-24T16:53:57 IST" duration-ms="8478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classconfig -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.FilterValidationTest@45c7e403]" started-at="2026-10-24T16:53:57 IST" name="methodCofig" finished-at="2026-10-24T16:53:57 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="applyFiltersTest()[pri:0, instance:testNGTests.FilterValidationTest@45c7e403]" started-at="2026-10-24T16:53:57 IST" name="applyFiltersTest" finished-at="2026-10-24T16:54:03 IST" duration-ms="5167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFiltersTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.FilterValidationTest@45c7e403]" started-at="2026-10-24T16:54:03 IST" name="methodTeardown" finished-at="2026-10-24T16:54:05 IST" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNGTests.FilterValidationTest@45c7e403]" started-at="2026-10-24T16:54:05 IST" name="classTeardown" finished-at="2026-10-24T16:54:08 IST" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNGTests.FilterValidationTest -->
+      <class name="testNGTests.AddToCartTest">
+        <test-method is-config="true" signature="classconfig()[pri:0, instance:testNGTests.AddToCartTest@710f4dc7]" started-at="2026-10-24T16:55:08 IST" name="classconfig" finished-at="2026-10-24T16:55:15 IST" duration-ms="7436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classconfig -->
+        <test-method is-config="true" signature="methodCofig()[pri:0, instance:testNGTests.AddToCartTest@710f4dc7]" started-at="2026-10-24T16:55:15 IST" name="methodCofig" finished-at="2026-10-24T16:55:15 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodCofig -->
+        <test-method signature="cartValidationTest()[pri:0, instance:testNGTests.AddToCartTest@710f4dc7]" started-at="2026-10-24T16:55:15 IST" name="cartValidationTest" finished-at="2026-10-24T16:55:29 IST" duration-ms="14229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartValidationTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testNGTests.AddToCartTest@710f4dc7]" started-at="2026-10-24T16:55:30 IST" name="methodTeardown" finished-at="2026-10-24T16:55:32 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testNGTests.AddToCartTest@710f4dc7]" started-at="2026-10-24T16:55:32 IST" name="classTeardown" finished-at="2026-10-24T16:55:39 IST" duration-ms="7643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+      </class> <!-- testNGTests.AddToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
