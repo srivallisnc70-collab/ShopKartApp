@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import utils.BaseClass;
 
+// Add to cart feature test
 public class AddToCartTest extends BaseClass {
 
 	@Test
