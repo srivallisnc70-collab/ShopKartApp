@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import utils.BaseClass;
 
+// Checkout test
 public class CheckoutTest extends BaseClass {
 	
 	@Test
